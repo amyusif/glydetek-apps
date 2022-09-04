@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$primary-color: #7B113A;
+$secondary-color: #150E56;
+
+
+.panel-container{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px 20px;
+
+}
+
+.panel{
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    height: 400px;
+    width: 750px;
+    // border: 1px solid black;
+    box-shadow: 20px black;
+
+    .left-side{
+        width: 45%;
+        background: linear-gradient(rgba(0,0,0,.78), rgba(0,0,0,.78)), url(../Assets/lotech.jpg);
+       background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .right-side{
+        width: 55%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(rgba(238, 237, 237,.8),rgba(238, 237, 237,.8)), url() ;
+        
+
+        h1{
+            margin-bottom: 20px;
+        }
+
+        .rightside-container{
+            // margin-left: -70px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+           
+
+
+            .txtbox{
+                padding: 4px;
+                font-size: 12px;
+                border:1px solid lightblue;
+                background: transparent;
+                width: 200px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                margin-top: -10px;
+    
+                &:focus{
+                    outline: none;
+                }
+            }
+            .input-text{
+                font-size: 13px;
+                font-family: 'Lato', sans-serif;
+                font-weight: bold;
+                margin-left: -140px;
+                
+            }
+
+            .btnLogin{
+                margin-top: 18px;
+                font-size: 18px;
+                padding: 7px 60px 7px 60px;
+                border: 1px solid;
+                cursor: pointer;
+                background: transparent;
+
+
+                &:hover{
+                    transition: .5s;
+                    background-color: #150E56;
+                    color: white;
+                }
+            }
+
+            h3{
+                font-size: 14px;
+                
+            }
+        }
+
+        
+    }
+    
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+}
+sup{
+    color: red;
+}
+
+.icon-container{
+    display: flex;
+    gap: 35px;
+
+    .icon{
+        cursor: pointer;
+
+        &:hover{
+            transition: 1.2s;
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+p{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+#desc{
+  color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+
