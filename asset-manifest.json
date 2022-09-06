@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/glydetek-apps/static/css/main.cf9b00dd.css",
-    "main.js": "/glydetek-apps/static/js/main.ad2022ef.js",
+    "main.css": "/glydetek-apps/static/css/main.ed144d2a.css",
+    "main.js": "/glydetek-apps/static/js/main.b036444a.js",
     "static/js/787.dcce2cbd.chunk.js": "/glydetek-apps/static/js/787.dcce2cbd.chunk.js",
     "static/media/lotech.jpg": "/glydetek-apps/static/media/lotech.ffbc0ab9e49c095fc3bc.jpg",
     "static/media/fa-solid-900.ttf": "/glydetek-apps/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
@@ -14,12 +14,12 @@
     "static/media/fa-v4compatibility.ttf": "/glydetek-apps/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
     "static/media/fa-v4compatibility.woff2": "/glydetek-apps/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "index.html": "/glydetek-apps/index.html",
-    "main.cf9b00dd.css.map": "/glydetek-apps/static/css/main.cf9b00dd.css.map",
-    "main.ad2022ef.js.map": "/glydetek-apps/static/js/main.ad2022ef.js.map",
+    "main.ed144d2a.css.map": "/glydetek-apps/static/css/main.ed144d2a.css.map",
+    "main.b036444a.js.map": "/glydetek-apps/static/js/main.b036444a.js.map",
     "787.dcce2cbd.chunk.js.map": "/glydetek-apps/static/js/787.dcce2cbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf9b00dd.css",
-    "static/js/main.ad2022ef.js"
+    "static/css/main.ed144d2a.css",
+    "static/js/main.b036444a.js"
   ]
 }
