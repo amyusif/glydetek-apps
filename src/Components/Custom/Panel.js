@@ -21,7 +21,7 @@ const Panel = () => {
            <input type='email' name='email'  className='txtbox'  />
 
             <p className='input-text'>Password <sup>*</sup> </p>
-           <input type='password' name='pword'  className='txtbox' />   
+           <input type='password' name='pword'  className='txtbox' maxLength="8" />   
 
            <input type="submit" name='login' value='Log In' className='btnLogin'/>
 
